@@ -1,3 +1,11 @@
+/**
+* Generate random graphs as input for the PPDFS algorithm
+* Random generation using the erdos renyi algorithm
+* The program takes two command line arguments
+* The first argument is the number of nodes
+* The second argument is the chance that two nodes are connected (between 0 and 1)
+*/
+
 #include <iostream>
 #include <vector>
 #include <bits/stdc++.h>
